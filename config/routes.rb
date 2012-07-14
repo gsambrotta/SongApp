@@ -1,4 +1,10 @@
 HelloWord::Application.routes.draw do
+  resources :albums
+
+  resources :genres
+
+  resources :artists
+
   resources :songs
 
   # The priority is based upon order of creation:
